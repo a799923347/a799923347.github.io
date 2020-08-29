@@ -33,3 +33,9 @@ Temporary Items
 
 # debug file
 _site
+.idea/.gitignore
+.idea/a799923347.github.io.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
