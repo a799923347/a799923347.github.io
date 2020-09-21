@@ -1,3 +1,14 @@
+---
+layout:     post
+title:      安装homebrew报connection refused问题
+subtitle:   
+date:       2020-09-21
+author:     Bowen
+header-img: img/post-bg-ios9-web.jpg
+catalog:    true
+tags:
+    - homebrew
+---
 今天帮同事配置mac的开发环境时，发现按照homebrew官网的教程运行命令报错
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
