@@ -398,3 +398,22 @@ puts "- Run `brew help` to get started"
 puts "- Further documentation: "
 puts "    #{Tty.underline}https://docs.brew.sh#{Tty.reset}"
 ```
+
+可能会遇到路径问题，报如下错误
+```
+xcode-select: error: invalid developer directory '/Library/Developer/CommandLineTools'
+Failed during: /usr/bin/sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
+```
+如果碰到这个问题，在终端上执行
+```shell script
+xcode-select -p
+```
+会得到一个路径，类似下面这样的
+```
+/Applications/Xcode.app/Contents/Developer
+```
+将安装脚本中
+```
+sudo "/usr/bin/xcode-select", "--switch", "/Library/Developer/CommandLineTools"
+```
+后面的路径替换掉再执行就可以了
