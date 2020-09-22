@@ -405,7 +405,7 @@ xcode-select: error: invalid developer directory '/Library/Developer/CommandLine
 Failed during: /usr/bin/sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
 ```
 如果碰到这个问题，在终端上执行
-```shell script
+```
 xcode-select -p
 ```
 会得到一个路径，类似下面这样的
