@@ -15,6 +15,9 @@ tags:
 ```
 ![](https://ftp.bmp.ovh/imgs/2020/09/95cf9eaa885b2b5a.png)
 只能曲线救国，使用以下脚本，将脚本内容复制到本地保存，比如命名为"brew_install.rb"，在终端上运行`ruby brew_install.rb`，即可安装成功。
+<details>
+<summary>脚本</summary>
+
 ```ruby
 #!/usr/bin/ruby
 # This script installs to /usr/local only. To install elsewhere (which is
@@ -398,6 +401,8 @@ puts "- Run `brew help` to get started"
 puts "- Further documentation: "
 puts "    #{Tty.underline}https://docs.brew.sh#{Tty.reset}"
 ```
+</details>
+
 
 可能会遇到路径问题，报如下错误
 ```
