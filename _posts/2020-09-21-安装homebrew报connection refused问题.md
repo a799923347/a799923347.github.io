@@ -401,7 +401,6 @@ puts "- Run `brew help` to get started"
 puts "- Further documentation: "
 puts "    #{Tty.underline}https://docs.brew.sh#{Tty.reset}"
 ```
-
 </details>
 
 
